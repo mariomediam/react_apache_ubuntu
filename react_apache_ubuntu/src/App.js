@@ -8,7 +8,7 @@ export default function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/trabajador' element={<TrabajadorView/>} />          
+				<Route path='/' element={<TrabajadorView/>} />          
 			</Routes>
 		</BrowserRouter>
 	);
