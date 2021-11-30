@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const URL = `${process.env.REACT_APP_API}/trabajador/buscar-trabajador`
+const URL = `${process.env.REACT_APP_API}/buscar-trabajador`
 
 const obtenerTrabajador = async(field, valor) => {
     try {
